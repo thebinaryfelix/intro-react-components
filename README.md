@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Intro to React Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an educational code for those who are entering the awesome world of programming!
 
-## Available Scripts
+In this exercise you will experience two ways of building a React component, by using:
 
-In the project directory, you can run:
+- Functions
+- Classes
 
-### `npm start`
+## The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application collects the user input, shows it on the proper area of the screen and allows the user to click on a Submit button. By clicking on the submit button, an alert will be fired after a small delay to signal that the form has been submitted.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is a demo application and it's incomplete. You should be able to make it work by following the instructions and using you big grey mass between your ears ;)
 
-### `npm test`
+## Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You already have a startup code, so you don't need to code from scratch... Yay!
 
-### `npm run build`
+Follow the TODO's in the comments throughout the code to get some hints.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Take a look on the code before diving your fingers in the keyboard.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**If needed**, as in desperate situations, take a look on the "answers" branch to find out where you're getting it wrong.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 1
 
-### `npm run eject`
+Setup the component's **state** if needed and display the user info on screen:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **name**
+- **surname**
+- **age**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Step 2
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Collect the user input and change the user info accordingly.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Step 3
 
-## Learn More
+After clicking on the submit button, an alert should fire after a delay signalling that the form has been submitted.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Result
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This should be your result:
 
-### Code Splitting
+![](assets/intro-to-react.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Disclaimer
 
-### Analyzing the Bundle Size
+This code is not intended for technical interviews and neither should be used in production envivonment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This is a brief demonstration of how to build React components using classes and functions.
 
-### Making a Progressive Web App
+### References
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you'd like to know more about React, try the [official documentation](https://reactjs.org/docs/getting-started.html).
