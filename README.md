@@ -11,7 +11,7 @@ In this exercise you will experience two ways of building a React component, by 
 
 This application collects the user input, shows it on the proper area of the screen and allows the user to click on a Submit button. By clicking on the submit button, an alert will be fired after a small delay to signal that the form has been submitted.
 
-This is a demo application and it's incomplete. You should be able to make it work by following the instructions and using you big grey mass between your ears ;)
+This is a demo application and it's incomplete. You should be able to make it work by following the instructions and using that big grey mass between your ears ;)
 
 ## Instructions
 
