@@ -23,6 +23,14 @@ Follow the TODO's in the comments throughout the code to get some hints.
 
 **If needed**, as in desperate situations, take a look on the "answers" branch to find out where you're getting it wrong.
 
+### Step 0
+
+- **Clone** this repo or **download** the .zip file;
+- Run `npm install` to download the dependencies;
+- Run `npm start` to execute the app;
+
+You'll be working inside the `src > functional` and `src > oop` folders
+
 ### Step 1
 
 Setup the component's **state** if needed and display the user info on screen:
